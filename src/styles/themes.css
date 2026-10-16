@@ -1,3 +1,31 @@
+/* ── Noctalia Fallback Themes ── */
+[data-theme="noctalia"],
+[data-theme="noctalia-dark"] {
+	--drx-color-base: #141218 !important;
+	--drx-color-surface: #211f26 !important;
+	--drx-color-overlay: #2b2930 !important;
+	--drx-color-highlight: #49454f !important;
+	--drx-color-text: #e6e0e9 !important;
+	--drx-color-subtext: #cac4d0 !important;
+	--drx-color-deactivate: #938f99 !important;
+	--drx-color-comment: #ccc2dc !important;
+	--drx-color-accent: #d0bcff !important;
+	--drx-color-focus: #efb8c8 !important;
+}
+
+[data-theme="noctalia-light"] {
+	--drx-color-base: #fef7ff !important;
+	--drx-color-surface: #f3edf7 !important;
+	--drx-color-overlay: #ece6f0 !important;
+	--drx-color-highlight: #c4c6d0 !important;
+	--drx-color-text: #1d1b20 !important;
+	--drx-color-subtext: #49454f !important;
+	--drx-color-deactivate: #79747e !important;
+	--drx-color-comment: #625b71 !important;
+	--drx-color-accent: #6750a4 !important;
+	--drx-color-focus: #7d5260 !important;
+}
+
 [data-theme="dracula"] {
 	--drx-color-base: #191A21 !important;
 	--drx-color-surface: #21222C !important;
