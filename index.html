@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="noctalia">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Startpage</title>
+	<link id="noctalia-theme-css" rel="stylesheet" href="./noctalia.css">
+	<link rel="icon" href="./assets/icon-BmIY5DC5.svg" type="image/x-icon" />
+  <script type="module" crossorigin src="./assets/index-DNDjDUFq.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-6lyjcj2F.css">
+</head>
+<body>
+
+	<button id="settings-toggle" class="settings-btn" aria-label="Open Settings">
+		<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+			<circle cx="12" cy="12" r="3"></circle>
+			<path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+		</svg>
+	</button>
+
+	<button id="help-toggle" class="help-btn" aria-label="Open Help Guide">
+		<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+			<circle cx="12" cy="12" r="10"></circle>
+			<path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+			<line x1="12" y1="17" x2="12.01" y2="17"></line>
+		</svg>
+	</button>
+
+	<main class="dashboard-container">
+		
+		<section class="content-card">
+			<header class="card-header">
+				<h1 class="greeting-title">Welcome back!</h1>
+				<p id="datetime-display" class="datetime-text">Sunday, 12:00:00 | 01/01/2020</p>
+			</header>
+
+			<div class="search-wrapper">
+				<div class="search-input-container">
+					<svg class="search-field-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+						<circle cx="11" cy="11" r="8"></circle>
+						<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+					</svg>
+					<input type="text" id="search-input" class="search-field" placeholder="Search with Google" autofocus autocomplete="off">
+					<div id="search-ghost" class="search-ghost"></div>
+				</div>
+				<div id="search-suggestions" class="suggestions-overlay"></div>
+			</div>
+
+			<div class="bookmark-grid">
+				
+				<div class="bookmark-category">
+					<h2 class="category-title">~/personal </h2>
+					<ul class="bookmark-list">
+						<li><a href="https://gemini.google.com">Gemini</a></li>
+						<li><a href="https://modrinth.com">Modrinth</a></li>
+						<li><a href="https://ivanime.com">Ivanime</a></li>
+						<li><a href="https://myanimelist.net">MyAnimeList</a></li>
+						<li><a href="https://virustotal.com">VirusTotal</a></li>
+					</ul>
+				</div>
+
+				<div class="bookmark-category">
+					<h2 class="category-title">~/dev </h2>
+					<ul class="bookmark-list">
+						<li><a href="https://overapi.com">OverApi</a></li>
+						<li><a href="https://devdocs.io">DevDocs</a></li>
+						<li><a href="https://github.com/druxorey">Github</a></li>
+						<li><a href="https://w3schools.com">W3Schools</a></li>
+						<li><a href="https://devhints.io">DevHints</a></li>
+					</ul>
+				</div>
+
+				<div class="bookmark-category">
+					<h2 class="category-title">~/academic 拾</h2>
+					<ul class="bookmark-list">
+						<li><a href="https://conest.ciens.ucv.ve/webapp/">Conest</a></li>
+						<li><a href="https://portalasig2.ciens.ucv.ve/#/">PortalAsig2</a></li>
+						<li><a href="https://campusvirtualucv.org/login/index.php">Campus Virtual</a></li>
+						<li><a href="https://correo.ciens.ucv.ve">CiensMail</a></li>
+						<li><a href="https://notebooklm.google.com/">NotebookLM</a></li>
+					</ul>
+				</div>
+
+				<div class="bookmark-category">
+					<h2 class="category-title">~/linux </h2>
+					<ul class="bookmark-list">
+						<li><a href="https://explainshell.com">Explain Shell</a></li>
+						<li><a href="https://github.com/druxorey/dotfiles">Dotfiles</a></li>
+						<li><a href="https://wiki.archlinux.org/title/Main_page">Arch Wiki</a></li>
+						<li><a href="https://aur.archlinux.org/">Aur</a></li>
+						<li><a href="https://reddit.com/user/devdruxorey/m/techthings/">TechThings</a></li>
+					</ul>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="sidebar-panel">
+			<div class="image-frame">
+				<a href="https://druxorey.github.io/"><img src="./assets/img-GReH_gJr.webp" alt="Character Illustration" class="display-image"></a>
+			</div>
+			
+			<div class="homelab-preview-box">
+				<div class="homelab-services-container">
+					<a href="http://192.168.1.10" class="homelab-service-link" data-url="http://192.168.1.10" title="TrueNAS Core (192.168.1.10)">
+						<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+					</a>
+					<a href="http://192.168.1.23:4533" class="homelab-service-link" data-url="http://192.168.1.23:4533" title="Navidrome (192.168.1.23)">
+						<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"></path><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path></svg>
+					</a>
+					<a href="http://192.168.1.17:8096" class="homelab-service-link" data-url="http://192.168.1.17:8096" title="Jellyfin (192.168.1.17)">
+						<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+					</a>
+					<a href="http://192.168.1.13:9091" class="homelab-service-link" data-url="http://192.168.1.13:9091" title="Transmission (192.168.1.13)">
+						<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+					</a>
+					<a href="http://192.168.1.15" class="homelab-service-link" data-url="http://192.168.1.15" title="Aria2 (192.168.1.15)">
+						<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 14 15 20 9"></polyline><polyline points="14 9 20 9 20 15"></polyline></svg>
+					</a>
+					<a href="http://192.168.1.18:9696" class="homelab-service-link" data-url="http://192.168.1.18:9696" title="Prowlarr (192.168.1.18)">
+						<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><circle cx="11" cy="11" r="3"></circle></svg>
+					</a>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<dialog id="settings-modal" class="config-modal">
+		<div class="modal-content">
+			<header class="modal-header">
+				<h2 class="modal-title">Preferences Configuration</h2>
+				<button id="settings-close" class="close-btn" aria-label="Close Settings">&times;</button>
+			</header>
+			<hr class="modal-divider">
+			<form class="config-form" method="dialog">
+				<div class="form-group">
+					<label>Default Web Search Engine</label>
+					<select id="search-engine-select" class="form-select">
+						<option value="https://google.com/search?q=">Google</option>
+						<option value="https://duckduckgo.com/?q=">DuckDuckGo</option>
+						<option value="https://search.brave.com/search?q=">Brave Search</option>
+					</select>
+				</div>
+
+				<div class="form-group">
+					<label>Preferred Dark Theme</label>
+					<select id="dark-theme-select" class="form-select">
+						<option value="noctalia">Noctalia (Dynamic)</option>
+						<option value="dracula">Dracula</option>
+						<option value="catppuccin-mocha">Catppuccin Mocha</option>
+						<option value="gruvbox-dark">Gruvbox Dark</option>
+						<option value="nord-dark">Nord Dark</option>
+						<option value="evergreen-dark">Evergreen Dark</option>
+						<option value="tokyonight-dark">Tokyo Night Dark</option>
+						<option value="onedark">One Dark</option>
+						<option value="rosepine-dark">Rosé Pine Dark</option>
+						<option value="ayu-dark">Ayu Dark</option>
+					</select>
+				</div>
+
+				<div class="form-group">
+					<label>Preferred Light Theme</label>
+					<select id="light-theme-select" class="form-select">
+						<option value="noctalia">Noctalia (Dynamic)</option>
+						<option value="alucard">Alucard</option>
+						<option value="catppuccin-latte">Catppuccin Latte</option>
+						<option value="gruvbox-light">Gruvbox Light</option>
+						<option value="nord-light">Nord Light</option>
+						<option value="evergreen-light">Evergreen Light</option>
+						<option value="tokyonight-light">Tokyo Night Light</option>
+						<option value="onelight">One Light</option>
+						<option value="rosepine-light">Rosé Pine Dawn</option>
+						<option value="ayu-light">Ayu Light</option>
+					</select>
+				</div>
+			</form>
+		</div>
+	</dialog>
+
+	<dialog id="help-modal" class="config-modal">
+		<div class="modal-content">
+			<header class="modal-header">
+				<h2 class="modal-title">Commands & Shortcuts</h2>
+				<button id="help-close" class="close-btn" aria-label="Close Help Guide">&times;</button>
+			</header>
+			<hr class="modal-divider">
+			<div class="help-body">
+				<h3 class="help-section-title">Search Prefixes</h3>
+				<ul class="help-guide-list">
+					<li><span class="help-key">s/</span> Default Web Search</li>
+					<li><span class="help-key">a/</span> Arch Wiki Search</li>
+					<li><span class="help-key">g/</span> GitHub Search</li>
+					<li><span class="help-key">y/</span> YouTube Search</li>
+					<li><span class="help-key">r/</span> Reddit Search</li>
+					<li><span class="help-key">i/</span> Google Images Search</li>
+				</ul>
+
+				<h3 class="help-section-title">Keyboard Shortcuts</h3>
+				<ul class="help-guide-list">
+					<li><span class="help-key">Space</span> Focus Search Bar</li>
+					<li><span class="help-key">Ctrl + C</span> Clear Input Bar</li>
+					<li><span class="help-key">Up / Down</span> Navigate Suggestions Dropdown</li>
+					<li><span class="help-key">Enter</span> Confirm Selection / Search</li>
+					<li><span class="help-key">Esc</span> Close Active Menus / Modals</li>
+				</ul>
+			</div>
+		</div>
+	</dialog>
+
+</body>
+</html>
