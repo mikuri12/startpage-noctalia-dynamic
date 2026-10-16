@@ -110,15 +110,20 @@
 }
 
 [data-theme^="noctalia"] .image-frame {
-	border: 1px solid #262524 !important;
+	border: none !important;
 	box-shadow: none !important;
 	border-radius: 0 !important;
 }
 
 [data-theme^="noctalia"] .image-frame:hover {
-	border-color: #262524 !important;
+	border: none !important;
 	box-shadow: none !important;
 	transform: none !important;
+}
+
+[data-theme^="noctalia"] .display-image {
+	border: none !important;
+	border-radius: 0 !important;
 }
 
 [data-theme^="noctalia"] .homelab-preview-box {
