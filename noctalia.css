@@ -3,56 +3,173 @@
 :root[data-theme="noctalia"],
 [data-theme="noctalia"] {
 	color-scheme: light;
+
+	/* ── Geometry: Square design ── */
+	--drx-radius-pill: 0px !important;
+	--drx-radius-card: 0px !important;
+	--drx-radius-element: 0px !important;
+
+	/* ── Borders: 1px solid Primary Noctalia color ── */
+	--drx-border-subtle: 1px solid #262524 !important;
+	--drx-border-highlight: 1px solid #262524 !important;
+
+	/* ── Shadows: Removed completely as requested ── */
+	--drx-shadow-card: none !important;
+	--drx-shadow-card-hover: none !important;
+	--drx-shadow-dropdown: none !important;
+	--drx-shadow-modal: none !important;
+
+	/* ── Base & Surface Colors ── */
 	--drx-color-base: #d4c1a8 !important;
 	--drx-color-surface: #dbcbb6 !important;
-	--drx-color-overlay: #cdb79a !important;
-	--drx-color-highlight: #a28f7c !important;
+	--drx-color-overlay: #a89682 !important;
+	--drx-color-highlight: #262524 !important;
+
+	/* ── Text & Icons: Noctalia Primary Color ── */
 	--drx-color-text: #262524 !important;
 	--drx-color-subtext: #262524 !important;
-	--drx-color-deactivate: #7a6957 !important;
-	--drx-color-comment: #736b5e !important;
+	--drx-color-deactivate: #262524 !important;
+	--drx-color-comment: #262524 !important;
 	--drx-color-accent: #262524 !important;
-	--drx-color-focus: #a89682 !important;
-
-	--drx-shadow-card: 0 8px 24px #736c5f !important;
-	--drx-shadow-card-hover: 0 10px 28px #736c5f !important;
-	--drx-shadow-modal: 0 16px 40px #736c5f !important;
+	--drx-color-focus: #262524 !important;
 }
 
 :root[data-theme="noctalia-dark"],
 [data-theme="noctalia-dark"] {
 	color-scheme: dark;
+	--drx-radius-pill: 0px !important;
+	--drx-radius-card: 0px !important;
+	--drx-radius-element: 0px !important;
+	--drx-border-subtle: 1px solid #cabaaa !important;
+	--drx-border-highlight: 1px solid #cabaaa !important;
+	--drx-shadow-card: none !important;
+	--drx-shadow-card-hover: none !important;
+	--drx-shadow-dropdown: none !important;
+	--drx-shadow-modal: none !important;
 	--drx-color-base: #1e1d1b !important;
 	--drx-color-surface: #292725 !important;
-	--drx-color-overlay: #33322e !important;
-	--drx-color-highlight: #43413e !important;
-	--drx-color-text: #f0ede6 !important;
+	--drx-color-overlay: #594f46 !important;
+	--drx-color-highlight: #cabaaa !important;
+	--drx-color-text: #cabaaa !important;
 	--drx-color-subtext: #cabaaa !important;
-	--drx-color-deactivate: #6b6763 !important;
-	--drx-color-comment: #73685f !important;
+	--drx-color-deactivate: #cabaaa !important;
+	--drx-color-comment: #cabaaa !important;
 	--drx-color-accent: #cabaaa !important;
-	--drx-color-focus: #594f46 !important;
-
-	--drx-shadow-card: 0 8px 24px #0a0a09 !important;
-	--drx-shadow-card-hover: 0 10px 28px #0a0a09 !important;
-	--drx-shadow-modal: 0 16px 40px #0a0a09 !important;
+	--drx-color-focus: #cabaaa !important;
 }
 
 :root[data-theme="noctalia-light"],
 [data-theme="noctalia-light"] {
 	color-scheme: light;
+	--drx-radius-pill: 0px !important;
+	--drx-radius-card: 0px !important;
+	--drx-radius-element: 0px !important;
+	--drx-border-subtle: 1px solid #262524 !important;
+	--drx-border-highlight: 1px solid #262524 !important;
+	--drx-shadow-card: none !important;
+	--drx-shadow-card-hover: none !important;
+	--drx-shadow-dropdown: none !important;
+	--drx-shadow-modal: none !important;
 	--drx-color-base: #d4c1a8 !important;
 	--drx-color-surface: #dbcbb6 !important;
-	--drx-color-overlay: #cdb79a !important;
-	--drx-color-highlight: #a28f7c !important;
+	--drx-color-overlay: #a89682 !important;
+	--drx-color-highlight: #262524 !important;
 	--drx-color-text: #262524 !important;
 	--drx-color-subtext: #262524 !important;
-	--drx-color-deactivate: #7a6957 !important;
-	--drx-color-comment: #736b5e !important;
+	--drx-color-deactivate: #262524 !important;
+	--drx-color-comment: #262524 !important;
 	--drx-color-accent: #262524 !important;
-	--drx-color-focus: #a89682 !important;
+	--drx-color-focus: #262524 !important;
+}
 
-	--drx-shadow-card: 0 8px 24px #736c5f !important;
-	--drx-shadow-card-hover: 0 10px 28px #736c5f !important;
-	--drx-shadow-modal: 0 16px 40px #736c5f !important;
+/* ── Square Radii Overrides ── */
+[data-theme^="noctalia"] .content-card,
+[data-theme^="noctalia"] .image-frame,
+[data-theme^="noctalia"] .display-image,
+[data-theme^="noctalia"] .homelab-preview-box,
+[data-theme^="noctalia"] .search-field,
+[data-theme^="noctalia"] .search-input-container,
+[data-theme^="noctalia"] .suggestions-overlay,
+[data-theme^="noctalia"] .suggestion-item,
+[data-theme^="noctalia"] .prefix-indicator,
+[data-theme^="noctalia"] .help-key,
+[data-theme^="noctalia"] .form-select,
+[data-theme^="noctalia"] .config-modal {
+	border-radius: 0 !important;
+}
+
+/* ── Card & Frame Borders & Shadows ── */
+[data-theme^="noctalia"] .content-card {
+	border: 1px solid #262524 !important;
+	box-shadow: none !important;
+}
+
+[data-theme^="noctalia"] .content-card:hover {
+	border-color: #262524 !important;
+	box-shadow: none !important;
+}
+
+[data-theme^="noctalia"] .image-frame {
+	border: 1px solid #262524 !important;
+	box-shadow: none !important;
+	border-radius: 0 !important;
+}
+
+[data-theme^="noctalia"] .image-frame:hover {
+	border-color: #262524 !important;
+	box-shadow: none !important;
+	transform: none !important;
+}
+
+[data-theme^="noctalia"] .homelab-preview-box {
+	border: 1px solid #262524 !important;
+	box-shadow: none !important;
+}
+
+[data-theme^="noctalia"] .homelab-preview-box:hover {
+	border-color: #262524 !important;
+	box-shadow: none !important;
+}
+
+/* ── Google Search Input: Square + Tertiary Palette Background ── */
+[data-theme^="noctalia"] .search-field {
+	border-radius: 0 !important;
+	border: 1px solid #262524 !important;
+	background-color: #a89682 !important;
+	box-shadow: none !important;
+	color: #262524 !important;
+}
+
+[data-theme^="noctalia"] .search-field:hover,
+[data-theme^="noctalia"] .search-field:focus {
+	border-color: #262524 !important;
+	background-color: #a89682 !important;
+	box-shadow: none !important;
+}
+
+[data-theme^="noctalia"] .search-field::placeholder {
+	color: #262524 !important;
+	opacity: 0.65;
+}
+
+[data-theme^="noctalia"] .search-field-icon {
+	color: #262524 !important;
+}
+
+/* ── All Text & Icons in Primary Color ── */
+[data-theme^="noctalia"] .greeting-title,
+[data-theme^="noctalia"] .datetime-text,
+[data-theme^="noctalia"] .category-title,
+[data-theme^="noctalia"] .category-icon,
+[data-theme^="noctalia"] .bookmark-list a,
+[data-theme^="noctalia"] .homelab-service-link,
+[data-theme^="noctalia"] .homelab-service-link svg,
+[data-theme^="noctalia"] .settings-btn,
+[data-theme^="noctalia"] .help-btn {
+	color: #262524 !important;
+}
+
+[data-theme^="noctalia"] .bookmark-list a:hover {
+	color: #262524 !important;
+	text-decoration: underline;
 }
