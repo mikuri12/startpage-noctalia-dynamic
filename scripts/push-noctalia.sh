@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
-# Sincroniza el CSS de Noctalia generado por el template:
-#   1. public/noctalia.css -> commit + push -> GitHub Pages se redeploya
-# Solo commitea si el contenido cambió; nunca commitea otra cosa del repo.
+# Sincroniza el CSS y wallpaper de Noctalia:
+#   1. public/noctalia.css y public/wallpaper.webp
+#   2. commit + push -> GitHub Pages se redeploya
+# Solo commitea si los contenidos cambiaron.
 set -uo pipefail
 
 REPO="$HOME/Projects/startpage-noctalia-dynamic"
@@ -15,22 +16,43 @@ if [ ! -f "$SRC" ]; then
   exit 0
 fi
 
-# 1. Copias locales (dist si existe, public para el build de Vite)
 mkdir -p "$REPO/public"
+
+# 1. Copia de CSS
 cp "$SRC" "$REPO/public/noctalia.css"
 if [ -d "$REPO/dist" ]; then
   cp "$SRC" "$REPO/dist/noctalia.css"
 fi
 
-# 2. Commit + push solo si el archivo cambió
+# 2. Copia y optimización del Wallpaper actual
+WALLPAPER="${1:-}"
+if [ -z "$WALLPAPER" ] || [ ! -f "$WALLPAPER" ]; then
+  WALLPAPER=$(noctalia msg wallpaper-get 2>/dev/null || true)
+fi
+
+if [ -n "$WALLPAPER" ] && [ -f "$WALLPAPER" ]; then
+  if command -v magick >/dev/null 2>&1; then
+    magick "$WALLPAPER" -resize 1200x\> -quality 85 "$REPO/public/wallpaper.webp" 2>/dev/null || cp "$WALLPAPER" "$REPO/public/wallpaper.webp"
+  elif command -v convert >/dev/null 2>&1; then
+    convert "$WALLPAPER" -resize 1200x\> -quality 85 "$REPO/public/wallpaper.webp" 2>/dev/null || cp "$WALLPAPER" "$REPO/public/wallpaper.webp"
+  else
+    cp "$WALLPAPER" "$REPO/public/wallpaper.webp"
+  fi
+
+  if [ -d "$REPO/dist" ]; then
+    cp "$REPO/public/wallpaper.webp" "$REPO/dist/wallpaper.webp"
+  fi
+fi
+
+# 3. Commit + push solo si el CSS o el wallpaper cambiaron
 cd "$REPO" || exit 0
-git add -- public/noctalia.css
-if git diff --cached --quiet -- public/noctalia.css; then
+git add -- public/noctalia.css public/wallpaper.webp
+if git diff --cached --quiet -- public/noctalia.css public/wallpaper.webp; then
   exit 0 # sin cambios: nada que subir
 fi
 
 BRANCH=$(git rev-parse --abbrev-ref HEAD 2>/dev/null || echo "?")
-if git commit -q -m "chore(noctalia): actualizar paleta generada [auto]" -- public/noctalia.css; then
+if git commit -q -m "chore(noctalia): actualizar paleta y wallpaper [auto]" -- public/noctalia.css public/wallpaper.webp; then
   log "commit creado en rama $BRANCH"
   if [ "$BRANCH" = "main" ]; then
     if GIT_TERMINAL_PROMPT=0 timeout 60 git push -q origin main 2>>"$LOG"; then
