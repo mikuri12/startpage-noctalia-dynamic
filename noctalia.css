@@ -1,5 +1,6 @@
 /* ── Noctalia Dynamic Theme for Druxorey Startpage ── */
 
+:root[data-theme="noctalia"],
 [data-theme="noctalia"] {
 	color-scheme: light;
 	--drx-color-base: #d1bea5 !important;
@@ -14,6 +15,7 @@
 	--drx-color-focus: #a89682 !important;
 }
 
+:root[data-theme="noctalia-dark"],
 [data-theme="noctalia-dark"] {
 	color-scheme: dark;
 	--drx-color-base: #201e1c !important;
@@ -28,6 +30,7 @@
 	--drx-color-focus: #594f46 !important;
 }
 
+:root[data-theme="noctalia-light"],
 [data-theme="noctalia-light"] {
 	color-scheme: light;
 	--drx-color-base: #d1bea5 !important;
