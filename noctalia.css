@@ -3,9 +3,9 @@
 :root[data-theme="noctalia"],
 [data-theme="noctalia"] {
 	color-scheme: light;
-	--drx-color-base: #d1bea5 !important;
-	--drx-color-surface: #c5b29a !important;
-	--drx-color-overlay: #bea88d !important;
+	--drx-color-base: #d4c1a8 !important;
+	--drx-color-surface: #dbcbb6 !important;
+	--drx-color-overlay: #cdb79a !important;
 	--drx-color-highlight: #a28f7c !important;
 	--drx-color-text: #262524 !important;
 	--drx-color-subtext: #262524 !important;
@@ -13,14 +13,18 @@
 	--drx-color-comment: #736b5e !important;
 	--drx-color-accent: #262524 !important;
 	--drx-color-focus: #a89682 !important;
+
+	--drx-shadow-card: 0 8px 24px #736c5f !important;
+	--drx-shadow-card-hover: 0 10px 28px #736c5f !important;
+	--drx-shadow-modal: 0 16px 40px #736c5f !important;
 }
 
 :root[data-theme="noctalia-dark"],
 [data-theme="noctalia-dark"] {
 	color-scheme: dark;
-	--drx-color-base: #201e1c !important;
-	--drx-color-surface: #282624 !important;
-	--drx-color-overlay: #33302e !important;
+	--drx-color-base: #1e1d1b !important;
+	--drx-color-surface: #292725 !important;
+	--drx-color-overlay: #33322e !important;
 	--drx-color-highlight: #43413e !important;
 	--drx-color-text: #f0ede6 !important;
 	--drx-color-subtext: #cabaaa !important;
@@ -28,14 +32,18 @@
 	--drx-color-comment: #73685f !important;
 	--drx-color-accent: #cabaaa !important;
 	--drx-color-focus: #594f46 !important;
+
+	--drx-shadow-card: 0 8px 24px #0a0a09 !important;
+	--drx-shadow-card-hover: 0 10px 28px #0a0a09 !important;
+	--drx-shadow-modal: 0 16px 40px #0a0a09 !important;
 }
 
 :root[data-theme="noctalia-light"],
 [data-theme="noctalia-light"] {
 	color-scheme: light;
-	--drx-color-base: #d1bea5 !important;
-	--drx-color-surface: #c5b29a !important;
-	--drx-color-overlay: #bea88d !important;
+	--drx-color-base: #d4c1a8 !important;
+	--drx-color-surface: #dbcbb6 !important;
+	--drx-color-overlay: #cdb79a !important;
 	--drx-color-highlight: #a28f7c !important;
 	--drx-color-text: #262524 !important;
 	--drx-color-subtext: #262524 !important;
@@ -43,4 +51,8 @@
 	--drx-color-comment: #736b5e !important;
 	--drx-color-accent: #262524 !important;
 	--drx-color-focus: #a89682 !important;
+
+	--drx-shadow-card: 0 8px 24px #736c5f !important;
+	--drx-shadow-card-hover: 0 10px 28px #736c5f !important;
+	--drx-shadow-modal: 0 16px 40px #736c5f !important;
 }
