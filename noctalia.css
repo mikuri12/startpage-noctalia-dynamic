@@ -10,8 +10,8 @@
 	--drx-radius-element: 0px !important;
 
 	/* ── Borders: 1px solid Primary Noctalia color ── */
-	--drx-border-subtle: 1px solid #676e95 !important;
-	--drx-border-highlight: 1px solid #676e95 !important;
+	--drx-border-subtle: 1px solid #8e0cc6 !important;
+	--drx-border-highlight: 1px solid #8e0cc6 !important;
 
 	/* ── Shadows: Removed completely as requested ── */
 	--drx-shadow-card: none !important;
@@ -20,18 +20,18 @@
 	--drx-shadow-modal: none !important;
 
 	/* ── Base & Surface Colors ── */
-	--drx-color-base: #eceff1 !important;
-	--drx-color-surface: #f8f9fa !important;
-	--drx-color-overlay: #414863 !important;
-	--drx-color-highlight: #676e95 !important;
+	--drx-color-base: #f7e7fe !important;
+	--drx-color-surface: #fefbff !important;
+	--drx-color-overlay: #bcfbe8 !important;
+	--drx-color-highlight: #8e0cc6 !important;
 
 	/* ── Text & Icons: Noctalia Primary Color ── */
-	--drx-color-text: #676e95 !important;
-	--drx-color-subtext: #676e95 !important;
-	--drx-color-deactivate: #676e95 !important;
-	--drx-color-comment: #676e95 !important;
-	--drx-color-accent: #676e95 !important;
-	--drx-color-focus: #676e95 !important;
+	--drx-color-text: #8e0cc6 !important;
+	--drx-color-subtext: #8e0cc6 !important;
+	--drx-color-deactivate: #8e0cc6 !important;
+	--drx-color-comment: #8e0cc6 !important;
+	--drx-color-accent: #8e0cc6 !important;
+	--drx-color-focus: #8e0cc6 !important;
 }
 
 :root[data-theme="noctalia-dark"],
@@ -40,22 +40,22 @@
 	--drx-radius-pill: 0px !important;
 	--drx-radius-card: 0px !important;
 	--drx-radius-element: 0px !important;
-	--drx-border-subtle: 1px solid #a6accd !important;
-	--drx-border-highlight: 1px solid #a6accd !important;
+	--drx-border-subtle: 1px solid #e8bcfb !important;
+	--drx-border-highlight: 1px solid #e8bcfb !important;
 	--drx-shadow-card: none !important;
 	--drx-shadow-card-hover: none !important;
 	--drx-shadow-dropdown: none !important;
 	--drx-shadow-modal: none !important;
-	--drx-color-base: #292d3e !important;
-	--drx-color-surface: #31364a !important;
-	--drx-color-overlay: #515772 !important;
-	--drx-color-highlight: #a6accd !important;
-	--drx-color-text: #a6accd !important;
-	--drx-color-subtext: #a6accd !important;
-	--drx-color-deactivate: #a6accd !important;
-	--drx-color-comment: #a6accd !important;
-	--drx-color-accent: #a6accd !important;
-	--drx-color-focus: #a6accd !important;
+	--drx-color-base: #300443 !important;
+	--drx-color-surface: #3e0556 !important;
+	--drx-color-overlay: #066f50 !important;
+	--drx-color-highlight: #e8bcfb !important;
+	--drx-color-text: #e8bcfb !important;
+	--drx-color-subtext: #e8bcfb !important;
+	--drx-color-deactivate: #e8bcfb !important;
+	--drx-color-comment: #e8bcfb !important;
+	--drx-color-accent: #e8bcfb !important;
+	--drx-color-focus: #e8bcfb !important;
 }
 
 :root[data-theme="noctalia-light"],
@@ -64,22 +64,22 @@
 	--drx-radius-pill: 0px !important;
 	--drx-radius-card: 0px !important;
 	--drx-radius-element: 0px !important;
-	--drx-border-subtle: 1px solid #676e95 !important;
-	--drx-border-highlight: 1px solid #676e95 !important;
+	--drx-border-subtle: 1px solid #8e0cc6 !important;
+	--drx-border-highlight: 1px solid #8e0cc6 !important;
 	--drx-shadow-card: none !important;
 	--drx-shadow-card-hover: none !important;
 	--drx-shadow-dropdown: none !important;
 	--drx-shadow-modal: none !important;
-	--drx-color-base: #eceff1 !important;
-	--drx-color-surface: #f8f9fa !important;
-	--drx-color-overlay: #414863 !important;
-	--drx-color-highlight: #676e95 !important;
-	--drx-color-text: #676e95 !important;
-	--drx-color-subtext: #676e95 !important;
-	--drx-color-deactivate: #676e95 !important;
-	--drx-color-comment: #676e95 !important;
-	--drx-color-accent: #676e95 !important;
-	--drx-color-focus: #676e95 !important;
+	--drx-color-base: #f7e7fe !important;
+	--drx-color-surface: #fefbff !important;
+	--drx-color-overlay: #bcfbe8 !important;
+	--drx-color-highlight: #8e0cc6 !important;
+	--drx-color-text: #8e0cc6 !important;
+	--drx-color-subtext: #8e0cc6 !important;
+	--drx-color-deactivate: #8e0cc6 !important;
+	--drx-color-comment: #8e0cc6 !important;
+	--drx-color-accent: #8e0cc6 !important;
+	--drx-color-focus: #8e0cc6 !important;
 }
 
 /* ── Square Radii Overrides ── */
@@ -100,12 +100,12 @@
 
 /* ── Card & Frame Borders & Shadows ── */
 [data-theme^="noctalia"] .content-card {
-	border: 1px solid #676e95 !important;
+	border: 1px solid #8e0cc6 !important;
 	box-shadow: none !important;
 }
 
 [data-theme^="noctalia"] .content-card:hover {
-	border-color: #676e95 !important;
+	border-color: #8e0cc6 !important;
 	box-shadow: none !important;
 }
 
@@ -127,38 +127,38 @@
 }
 
 [data-theme^="noctalia"] .homelab-preview-box {
-	border: 1px solid #676e95 !important;
+	border: 1px solid #8e0cc6 !important;
 	box-shadow: none !important;
 }
 
 [data-theme^="noctalia"] .homelab-preview-box:hover {
-	border-color: #676e95 !important;
+	border-color: #8e0cc6 !important;
 	box-shadow: none !important;
 }
 
 /* ── Google Search Input: Square + Tertiary Palette Background ── */
 [data-theme^="noctalia"] .search-field {
 	border-radius: 0 !important;
-	border: 1px solid #676e95 !important;
-	background-color: #414863 !important;
+	border: 1px solid #8e0cc6 !important;
+	background-color: #bcfbe8 !important;
 	box-shadow: none !important;
-	color: #676e95 !important;
+	color: #8e0cc6 !important;
 }
 
 [data-theme^="noctalia"] .search-field:hover,
 [data-theme^="noctalia"] .search-field:focus {
-	border-color: #676e95 !important;
-	background-color: #414863 !important;
+	border-color: #8e0cc6 !important;
+	background-color: #bcfbe8 !important;
 	box-shadow: none !important;
 }
 
 [data-theme^="noctalia"] .search-field::placeholder {
-	color: #676e95 !important;
+	color: #8e0cc6 !important;
 	opacity: 0.65;
 }
 
 [data-theme^="noctalia"] .search-field-icon {
-	color: #676e95 !important;
+	color: #8e0cc6 !important;
 }
 
 /* ── All Text & Icons in Primary Color ── */
@@ -171,10 +171,10 @@
 [data-theme^="noctalia"] .homelab-service-link svg,
 [data-theme^="noctalia"] .settings-btn,
 [data-theme^="noctalia"] .help-btn {
-	color: #676e95 !important;
+	color: #8e0cc6 !important;
 }
 
 [data-theme^="noctalia"] .bookmark-list a:hover {
-	color: #676e95 !important;
+	color: #8e0cc6 !important;
 	text-decoration: underline;
 }
