@@ -2,7 +2,7 @@
 
 :root[data-theme="noctalia"],
 [data-theme="noctalia"] {
-	color-scheme: dark;
+	color-scheme: light;
 
 	/* ── Geometry: Square design ── */
 	--drx-radius-pill: 0px !important;
@@ -10,8 +10,8 @@
 	--drx-radius-element: 0px !important;
 
 	/* ── Borders: 1px solid Primary Noctalia color ── */
-	--drx-border-subtle: 1px solid #cabaaa !important;
-	--drx-border-highlight: 1px solid #cabaaa !important;
+	--drx-border-subtle: 1px solid #262524 !important;
+	--drx-border-highlight: 1px solid #262524 !important;
 
 	/* ── Shadows: Removed completely as requested ── */
 	--drx-shadow-card: none !important;
@@ -20,18 +20,18 @@
 	--drx-shadow-modal: none !important;
 
 	/* ── Base & Surface Colors ── */
-	--drx-color-base: #1e1d1b !important;
-	--drx-color-surface: #292725 !important;
-	--drx-color-overlay: #594f46 !important;
-	--drx-color-highlight: #cabaaa !important;
+	--drx-color-base: #d4c1a8 !important;
+	--drx-color-surface: #dbcbb6 !important;
+	--drx-color-overlay: #a89682 !important;
+	--drx-color-highlight: #262524 !important;
 
 	/* ── Text & Icons: Noctalia Primary Color ── */
-	--drx-color-text: #cabaaa !important;
-	--drx-color-subtext: #cabaaa !important;
-	--drx-color-deactivate: #cabaaa !important;
-	--drx-color-comment: #cabaaa !important;
-	--drx-color-accent: #cabaaa !important;
-	--drx-color-focus: #cabaaa !important;
+	--drx-color-text: #262524 !important;
+	--drx-color-subtext: #262524 !important;
+	--drx-color-deactivate: #262524 !important;
+	--drx-color-comment: #262524 !important;
+	--drx-color-accent: #262524 !important;
+	--drx-color-focus: #262524 !important;
 }
 
 :root[data-theme="noctalia-dark"],
@@ -100,12 +100,12 @@
 
 /* ── Card & Frame Borders & Shadows ── */
 [data-theme^="noctalia"] .content-card {
-	border: 1px solid #cabaaa !important;
+	border: 1px solid #262524 !important;
 	box-shadow: none !important;
 }
 
 [data-theme^="noctalia"] .content-card:hover {
-	border-color: #cabaaa !important;
+	border-color: #262524 !important;
 	box-shadow: none !important;
 }
 
@@ -127,38 +127,38 @@
 }
 
 [data-theme^="noctalia"] .homelab-preview-box {
-	border: 1px solid #cabaaa !important;
+	border: 1px solid #262524 !important;
 	box-shadow: none !important;
 }
 
 [data-theme^="noctalia"] .homelab-preview-box:hover {
-	border-color: #cabaaa !important;
+	border-color: #262524 !important;
 	box-shadow: none !important;
 }
 
 /* ── Google Search Input: Square + Tertiary Palette Background ── */
 [data-theme^="noctalia"] .search-field {
 	border-radius: 0 !important;
-	border: 1px solid #cabaaa !important;
-	background-color: #594f46 !important;
+	border: 1px solid #262524 !important;
+	background-color: #a89682 !important;
 	box-shadow: none !important;
-	color: #cabaaa !important;
+	color: #262524 !important;
 }
 
 [data-theme^="noctalia"] .search-field:hover,
 [data-theme^="noctalia"] .search-field:focus {
-	border-color: #cabaaa !important;
-	background-color: #594f46 !important;
+	border-color: #262524 !important;
+	background-color: #a89682 !important;
 	box-shadow: none !important;
 }
 
 [data-theme^="noctalia"] .search-field::placeholder {
-	color: #cabaaa !important;
+	color: #262524 !important;
 	opacity: 0.65;
 }
 
 [data-theme^="noctalia"] .search-field-icon {
-	color: #cabaaa !important;
+	color: #262524 !important;
 }
 
 /* ── All Text & Icons in Primary Color ── */
@@ -171,10 +171,10 @@
 [data-theme^="noctalia"] .homelab-service-link svg,
 [data-theme^="noctalia"] .settings-btn,
 [data-theme^="noctalia"] .help-btn {
-	color: #cabaaa !important;
+	color: #262524 !important;
 }
 
 [data-theme^="noctalia"] .bookmark-list a:hover {
-	color: #cabaaa !important;
+	color: #262524 !important;
 	text-decoration: underline;
 }
