@@ -380,38 +380,9 @@
 /* ==========================================================================
    5. FLOATING CONTROLS & UTILITY CONFIGURATION BUTTONS
    ========================================================================== */
-.settings-btn {
-	position: fixed;
-	top: 1.5rem;
-	right: 1.5rem;
-	background: none;
-	border: none;
-	color: var(--drx-color-deactivate);
-	cursor: pointer;
-	transition: var(--drx-motion-smooth);
-	z-index: 10;
-}
-
-.settings-btn:hover {
-	color: var(--drx-color-accent);
-	transform: rotate(45deg);
-}
-
+.settings-btn,
 .help-btn {
-	position: fixed;
-	bottom: 1.5rem;
-	right: 1.5rem;
-	background: none;
-	border: none;
-	color: var(--drx-color-deactivate);
-	cursor: pointer;
-	transition: var(--drx-motion-smooth);
-	z-index: 10;
-}
-
-.help-btn:hover {
-	color: var(--drx-color-accent);
-	transform: scale(1.1);
+	display: none !important;
 }
 
 /* ==========================================================================

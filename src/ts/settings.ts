@@ -9,7 +9,7 @@ export function initSettings(): void {
 	const darkSelect = document.getElementById('dark-theme-select') as HTMLSelectElement | null;
 	const engineSelect = document.getElementById('search-engine-select') as HTMLSelectElement | null;
 
-	if (!modal || !toggleBtn || !closeBtn || !lightSelect || !darkSelect || !engineSelect) return;
+	if (!modal || !closeBtn || !lightSelect || !darkSelect || !engineSelect) return;
 
 	const currentPreferences = getThemeSettings();
 
@@ -17,7 +17,7 @@ export function initSettings(): void {
 	darkSelect.value = currentPreferences.preferredDark;
 	engineSelect.value = getSavedSearchEngine();
 
-	toggleBtn.addEventListener('click', () => modal.showModal());
+	toggleBtn?.addEventListener('click', () => modal.showModal());
 	closeBtn.addEventListener('click', () => modal.close());
 
 	modal.addEventListener('click', (event: MouseEvent) => {

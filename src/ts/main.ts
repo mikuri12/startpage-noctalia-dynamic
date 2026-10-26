@@ -29,9 +29,9 @@ function initHelpModal(): void {
 	const toggleBtn = document.getElementById('help-toggle');
 	const closeBtn = document.getElementById('help-close');
 
-	if (!modal || !toggleBtn || !closeBtn) return;
+	if (!modal || !closeBtn) return;
 
-	toggleBtn.addEventListener('click', () => modal.showModal());
+	toggleBtn?.addEventListener('click', () => modal.showModal());
 	closeBtn.addEventListener('click', () => modal.close());
 
 	modal.addEventListener('click', (event: MouseEvent) => {
@@ -68,6 +68,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 	});
 
 	document.addEventListener('keydown', (event: KeyboardEvent) => {
+		const isInputActive = ['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement?.tagName || '');
+
 		if (document.activeElement?.tagName === 'SELECT') return;
 
 		if (document.activeElement === searchInput) {
@@ -76,11 +78,20 @@ document.addEventListener('DOMContentLoaded', async () => {
 		}
 
 		if (event.key === 'Escape') {
+			if (document.activeElement === searchInput) {
+				searchInput.blur();
+			}
 			if (settingsModal?.open) settingsModal.close();
 			if (helpModal?.open) helpModal.close();
-		} else if (event.key === ' ' && document.activeElement !== searchInput) {
+		} else if (event.key === ' ' && !isInputActive) {
 			event.preventDefault();
 			searchInput.focus();
+		} else if ((event.key === 's' || event.key === 'S') && !isInputActive && !settingsModal?.open) {
+			event.preventDefault();
+			settingsModal?.showModal();
+		} else if (event.key === '?' && !isInputActive && !helpModal?.open) {
+			event.preventDefault();
+			helpModal?.showModal();
 		} else if (event.key === 'Enter' && document.activeElement === searchInput) {
 			event.preventDefault();
 			handleSearch(searchInput.value);
