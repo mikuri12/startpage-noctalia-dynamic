@@ -20,8 +20,8 @@
 	--drx-shadow-modal: none !important;
 
 	/* ── Base & Surface Colors ── */
-	--drx-color-base: #e6d8c3 !important;
-	--drx-color-surface: #ece1d1 !important;
+	--drx-color-base: #f5efe5 !important;
+	--drx-color-surface: #fbf8f4 !important;
 	--drx-color-overlay: #5e452e !important;
 	--drx-color-highlight: #7c5c3b !important;
 
@@ -70,8 +70,8 @@
 	--drx-shadow-card-hover: none !important;
 	--drx-shadow-dropdown: none !important;
 	--drx-shadow-modal: none !important;
-	--drx-color-base: #e6d8c3 !important;
-	--drx-color-surface: #ece1d1 !important;
+	--drx-color-base: #f5efe5 !important;
+	--drx-color-surface: #fbf8f4 !important;
 	--drx-color-overlay: #5e452e !important;
 	--drx-color-highlight: #7c5c3b !important;
 	--drx-color-text: #7c5c3b !important;
