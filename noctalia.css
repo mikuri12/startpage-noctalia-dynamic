@@ -7,25 +7,25 @@
 	--drx-radius-card: 0px !important;
 	--drx-radius-element: 0px !important;
 
-	--drx-border-subtle: 1px solid #a76a5c !important;
-	--drx-border-highlight: 1px solid #a76a5c !important;
+	--drx-border-subtle: 1px solid #6d6856 !important;
+	--drx-border-highlight: 1px solid #6d6856 !important;
 
 	--drx-shadow-card: none !important;
 	--drx-shadow-card-hover: none !important;
 	--drx-shadow-dropdown: none !important;
 	--drx-shadow-modal: none !important;
 
-	--drx-color-base: #f1e8e2 !important;
-	--drx-color-surface: #f8f3f0 !important;
-	--drx-color-overlay: #8d726c !important;
-	--drx-color-highlight: #a76a5c !important;
+	--drx-color-base: #e7e7e7 !important;
+	--drx-color-surface: #f1f1f1 !important;
+	--drx-color-overlay: #5f5f63 !important;
+	--drx-color-highlight: #6d6856 !important;
 
-	--drx-color-text: #a76a5c !important;
-	--drx-color-subtext: #a76a5c !important;
-	--drx-color-deactivate: #a76a5c !important;
-	--drx-color-comment: #a76a5c !important;
-	--drx-color-accent: #a76a5c !important;
-	--drx-color-focus: #a76a5c !important;
+	--drx-color-text: #6d6856 !important;
+	--drx-color-subtext: #6d6856 !important;
+	--drx-color-deactivate: #6d6856 !important;
+	--drx-color-comment: #6d6856 !important;
+	--drx-color-accent: #6d6856 !important;
+	--drx-color-focus: #6d6856 !important;
 }
 
 :root[data-theme="noctalia-dark"],
@@ -34,22 +34,22 @@
 	--drx-radius-pill: 0px !important;
 	--drx-radius-card: 0px !important;
 	--drx-radius-element: 0px !important;
-	--drx-border-subtle: 1px solid #ba7667 !important;
-	--drx-border-highlight: 1px solid #ba7667 !important;
+	--drx-border-subtle: 1px solid #7a7460 !important;
+	--drx-border-highlight: 1px solid #7a7460 !important;
 	--drx-shadow-card: none !important;
 	--drx-shadow-card-hover: none !important;
 	--drx-shadow-dropdown: none !important;
 	--drx-shadow-modal: none !important;
-	--drx-color-base: #382b23 !important;
-	--drx-color-surface: #45352b !important;
-	--drx-color-overlay: #a68780 !important;
-	--drx-color-highlight: #ba7667 !important;
-	--drx-color-text: #ba7667 !important;
-	--drx-color-subtext: #ba7667 !important;
-	--drx-color-deactivate: #ba7667 !important;
-	--drx-color-comment: #ba7667 !important;
-	--drx-color-accent: #ba7667 !important;
-	--drx-color-focus: #ba7667 !important;
+	--drx-color-base: #232323 !important;
+	--drx-color-surface: #2d2d2d !important;
+	--drx-color-overlay: #707075 !important;
+	--drx-color-highlight: #7a7460 !important;
+	--drx-color-text: #7a7460 !important;
+	--drx-color-subtext: #7a7460 !important;
+	--drx-color-deactivate: #7a7460 !important;
+	--drx-color-comment: #7a7460 !important;
+	--drx-color-accent: #7a7460 !important;
+	--drx-color-focus: #7a7460 !important;
 }
 
 :root[data-theme="noctalia-light"],
@@ -58,22 +58,22 @@
 	--drx-radius-pill: 0px !important;
 	--drx-radius-card: 0px !important;
 	--drx-radius-element: 0px !important;
-	--drx-border-subtle: 1px solid #a76a5c !important;
-	--drx-border-highlight: 1px solid #a76a5c !important;
+	--drx-border-subtle: 1px solid #6d6856 !important;
+	--drx-border-highlight: 1px solid #6d6856 !important;
 	--drx-shadow-card: none !important;
 	--drx-shadow-card-hover: none !important;
 	--drx-shadow-dropdown: none !important;
 	--drx-shadow-modal: none !important;
-	--drx-color-base: #f1e8e2 !important;
-	--drx-color-surface: #f8f3f0 !important;
-	--drx-color-overlay: #8d726c !important;
-	--drx-color-highlight: #a76a5c !important;
-	--drx-color-text: #a76a5c !important;
-	--drx-color-subtext: #a76a5c !important;
-	--drx-color-deactivate: #a76a5c !important;
-	--drx-color-comment: #a76a5c !important;
-	--drx-color-accent: #a76a5c !important;
-	--drx-color-focus: #a76a5c !important;
+	--drx-color-base: #e7e7e7 !important;
+	--drx-color-surface: #f1f1f1 !important;
+	--drx-color-overlay: #5f5f63 !important;
+	--drx-color-highlight: #6d6856 !important;
+	--drx-color-text: #6d6856 !important;
+	--drx-color-subtext: #6d6856 !important;
+	--drx-color-deactivate: #6d6856 !important;
+	--drx-color-comment: #6d6856 !important;
+	--drx-color-accent: #6d6856 !important;
+	--drx-color-focus: #6d6856 !important;
 }
 
 [data-theme^="noctalia"] .content-card,
@@ -92,12 +92,12 @@
 }
 
 [data-theme^="noctalia"] .content-card {
-	border: 1px solid #a76a5c !important;
+	border: 1px solid #6d6856 !important;
 	box-shadow: none !important;
 }
 
 [data-theme^="noctalia"] .content-card:hover {
-	border-color: #a76a5c !important;
+	border-color: #6d6856 !important;
 	box-shadow: none !important;
 }
 
@@ -119,37 +119,37 @@
 }
 
 [data-theme^="noctalia"] .homelab-preview-box {
-	border: 1px solid #a76a5c !important;
+	border: 1px solid #6d6856 !important;
 	box-shadow: none !important;
 }
 
 [data-theme^="noctalia"] .homelab-preview-box:hover {
-	border-color: #a76a5c !important;
+	border-color: #6d6856 !important;
 	box-shadow: none !important;
 }
 
 [data-theme^="noctalia"] .search-field {
 	border-radius: 0 !important;
-	border: 1px solid #a76a5c !important;
-	background-color: #8d726c !important;
+	border: 1px solid #6d6856 !important;
+	background-color: #5f5f63 !important;
 	box-shadow: none !important;
-	color: #a76a5c !important;
+	color: #6d6856 !important;
 }
 
 [data-theme^="noctalia"] .search-field:hover,
 [data-theme^="noctalia"] .search-field:focus {
-	border-color: #a76a5c !important;
-	background-color: #8d726c !important;
+	border-color: #6d6856 !important;
+	background-color: #5f5f63 !important;
 	box-shadow: none !important;
 }
 
 [data-theme^="noctalia"] .search-field::placeholder {
-	color: #a76a5c !important;
+	color: #6d6856 !important;
 	opacity: 0.65;
 }
 
 [data-theme^="noctalia"] .search-field-icon {
-	color: #a76a5c !important;
+	color: #6d6856 !important;
 }
 
 [data-theme^="noctalia"] .greeting-title,
@@ -161,10 +161,10 @@
 [data-theme^="noctalia"] .homelab-service-link svg,
 [data-theme^="noctalia"] .settings-btn,
 [data-theme^="noctalia"] .help-btn {
-	color: #a76a5c !important;
+	color: #6d6856 !important;
 }
 
 [data-theme^="noctalia"] .bookmark-list a:hover {
-	color: #a76a5c !important;
+	color: #6d6856 !important;
 	text-decoration: underline;
 }
