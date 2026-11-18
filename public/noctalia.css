@@ -7,25 +7,25 @@
 	--drx-radius-card: 0px !important;
 	--drx-radius-element: 0px !important;
 
-	--drx-border-subtle: 1px solid #906663 !important;
-	--drx-border-highlight: 1px solid #906663 !important;
+	--drx-border-subtle: 1px solid #70aac1 !important;
+	--drx-border-highlight: 1px solid #70aac1 !important;
 
 	--drx-shadow-card: none !important;
 	--drx-shadow-card-hover: none !important;
 	--drx-shadow-dropdown: none !important;
 	--drx-shadow-modal: none !important;
 
-	--drx-color-base: #fbf5e9 !important;
-	--drx-color-surface: #fefdfa !important;
-	--drx-color-overlay: #846163 !important;
-	--drx-color-highlight: #906663 !important;
+	--drx-color-base: #c7e8ff !important;
+	--drx-color-surface: #dbf0ff !important;
+	--drx-color-overlay: #699bb3 !important;
+	--drx-color-highlight: #70aac1 !important;
 
-	--drx-color-text: #906663 !important;
-	--drx-color-subtext: #906663 !important;
-	--drx-color-deactivate: #906663 !important;
-	--drx-color-comment: #906663 !important;
-	--drx-color-accent: #906663 !important;
-	--drx-color-focus: #906663 !important;
+	--drx-color-text: #70aac1 !important;
+	--drx-color-subtext: #70aac1 !important;
+	--drx-color-deactivate: #70aac1 !important;
+	--drx-color-comment: #70aac1 !important;
+	--drx-color-accent: #70aac1 !important;
+	--drx-color-focus: #70aac1 !important;
 }
 
 :root[data-theme="noctalia-dark"],
@@ -34,22 +34,22 @@
 	--drx-radius-pill: 0px !important;
 	--drx-radius-card: 0px !important;
 	--drx-radius-element: 0px !important;
-	--drx-border-subtle: 1px solid #a1726f !important;
-	--drx-border-highlight: 1px solid #a1726f !important;
+	--drx-border-subtle: 1px solid #7dbdd7 !important;
+	--drx-border-highlight: 1px solid #7dbdd7 !important;
 	--drx-shadow-card: none !important;
 	--drx-shadow-card-hover: none !important;
 	--drx-shadow-dropdown: none !important;
 	--drx-shadow-modal: none !important;
-	--drx-color-base: #332917 !important;
-	--drx-color-surface: #41341d !important;
-	--drx-color-overlay: #9c7375 !important;
-	--drx-color-highlight: #a1726f !important;
-	--drx-color-text: #a1726f !important;
-	--drx-color-subtext: #a1726f !important;
-	--drx-color-deactivate: #a1726f !important;
-	--drx-color-comment: #a1726f !important;
-	--drx-color-accent: #a1726f !important;
-	--drx-color-focus: #a1726f !important;
+	--drx-color-base: #083654 !important;
+	--drx-color-surface: #0a4267 !important;
+	--drx-color-overlay: #7cb7d3 !important;
+	--drx-color-highlight: #7dbdd7 !important;
+	--drx-color-text: #7dbdd7 !important;
+	--drx-color-subtext: #7dbdd7 !important;
+	--drx-color-deactivate: #7dbdd7 !important;
+	--drx-color-comment: #7dbdd7 !important;
+	--drx-color-accent: #7dbdd7 !important;
+	--drx-color-focus: #7dbdd7 !important;
 }
 
 :root[data-theme="noctalia-light"],
@@ -58,22 +58,22 @@
 	--drx-radius-pill: 0px !important;
 	--drx-radius-card: 0px !important;
 	--drx-radius-element: 0px !important;
-	--drx-border-subtle: 1px solid #906663 !important;
-	--drx-border-highlight: 1px solid #906663 !important;
+	--drx-border-subtle: 1px solid #70aac1 !important;
+	--drx-border-highlight: 1px solid #70aac1 !important;
 	--drx-shadow-card: none !important;
 	--drx-shadow-card-hover: none !important;
 	--drx-shadow-dropdown: none !important;
 	--drx-shadow-modal: none !important;
-	--drx-color-base: #fbf5e9 !important;
-	--drx-color-surface: #fefdfa !important;
-	--drx-color-overlay: #846163 !important;
-	--drx-color-highlight: #906663 !important;
-	--drx-color-text: #906663 !important;
-	--drx-color-subtext: #906663 !important;
-	--drx-color-deactivate: #906663 !important;
-	--drx-color-comment: #906663 !important;
-	--drx-color-accent: #906663 !important;
-	--drx-color-focus: #906663 !important;
+	--drx-color-base: #c7e8ff !important;
+	--drx-color-surface: #dbf0ff !important;
+	--drx-color-overlay: #699bb3 !important;
+	--drx-color-highlight: #70aac1 !important;
+	--drx-color-text: #70aac1 !important;
+	--drx-color-subtext: #70aac1 !important;
+	--drx-color-deactivate: #70aac1 !important;
+	--drx-color-comment: #70aac1 !important;
+	--drx-color-accent: #70aac1 !important;
+	--drx-color-focus: #70aac1 !important;
 }
 
 [data-theme^="noctalia"] .content-card,
@@ -92,12 +92,12 @@
 }
 
 [data-theme^="noctalia"] .content-card {
-	border: 1px solid #906663 !important;
+	border: 1px solid #70aac1 !important;
 	box-shadow: none !important;
 }
 
 [data-theme^="noctalia"] .content-card:hover {
-	border-color: #906663 !important;
+	border-color: #70aac1 !important;
 	box-shadow: none !important;
 }
 
@@ -119,37 +119,37 @@
 }
 
 [data-theme^="noctalia"] .homelab-preview-box {
-	border: 1px solid #906663 !important;
+	border: 1px solid #70aac1 !important;
 	box-shadow: none !important;
 }
 
 [data-theme^="noctalia"] .homelab-preview-box:hover {
-	border-color: #906663 !important;
+	border-color: #70aac1 !important;
 	box-shadow: none !important;
 }
 
 [data-theme^="noctalia"] .search-field {
 	border-radius: 0 !important;
-	border: 1px solid #906663 !important;
-	background-color: #846163 !important;
+	border: 1px solid #70aac1 !important;
+	background-color: #699bb3 !important;
 	box-shadow: none !important;
-	color: #906663 !important;
+	color: #70aac1 !important;
 }
 
 [data-theme^="noctalia"] .search-field:hover,
 [data-theme^="noctalia"] .search-field:focus {
-	border-color: #906663 !important;
-	background-color: #846163 !important;
+	border-color: #70aac1 !important;
+	background-color: #699bb3 !important;
 	box-shadow: none !important;
 }
 
 [data-theme^="noctalia"] .search-field::placeholder {
-	color: #906663 !important;
+	color: #70aac1 !important;
 	opacity: 0.65;
 }
 
 [data-theme^="noctalia"] .search-field-icon {
-	color: #906663 !important;
+	color: #70aac1 !important;
 }
 
 [data-theme^="noctalia"] .greeting-title,
@@ -161,10 +161,10 @@
 [data-theme^="noctalia"] .homelab-service-link svg,
 [data-theme^="noctalia"] .settings-btn,
 [data-theme^="noctalia"] .help-btn {
-	color: #906663 !important;
+	color: #70aac1 !important;
 }
 
 [data-theme^="noctalia"] .bookmark-list a:hover {
-	color: #906663 !important;
+	color: #70aac1 !important;
 	text-decoration: underline;
 }
