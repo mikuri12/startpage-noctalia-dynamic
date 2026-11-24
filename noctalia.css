@@ -1,31 +1,31 @@
 
 :root[data-theme="noctalia"],
 [data-theme="noctalia"] {
-	color-scheme: dark;
+	color-scheme: light;
 
 	--drx-radius-pill: 0px !important;
 	--drx-radius-card: 0px !important;
 	--drx-radius-element: 0px !important;
 
-	--drx-border-subtle: 1px solid #fff59b !important;
-	--drx-border-highlight: 1px solid #fff59b !important;
+	--drx-border-subtle: 1px solid #943839 !important;
+	--drx-border-highlight: 1px solid #943839 !important;
 
 	--drx-shadow-card: none !important;
 	--drx-shadow-card-hover: none !important;
 	--drx-shadow-dropdown: none !important;
 	--drx-shadow-modal: none !important;
 
-	--drx-color-base: #070722 !important;
-	--drx-color-surface: #0a0a33 !important;
-	--drx-color-overlay: #9bfece !important;
-	--drx-color-highlight: #fff59b !important;
+	--drx-color-base: #fff7f7 !important;
+	--drx-color-surface: #ffffff !important;
+	--drx-color-overlay: #833937 !important;
+	--drx-color-highlight: #943839 !important;
 
-	--drx-color-text: #fff59b !important;
-	--drx-color-subtext: #fff59b !important;
-	--drx-color-deactivate: #fff59b !important;
-	--drx-color-comment: #fff59b !important;
-	--drx-color-accent: #fff59b !important;
-	--drx-color-focus: #fff59b !important;
+	--drx-color-text: #943839 !important;
+	--drx-color-subtext: #943839 !important;
+	--drx-color-deactivate: #943839 !important;
+	--drx-color-comment: #943839 !important;
+	--drx-color-accent: #943839 !important;
+	--drx-color-focus: #943839 !important;
 }
 
 :root[data-theme="noctalia-dark"],
@@ -34,22 +34,22 @@
 	--drx-radius-pill: 0px !important;
 	--drx-radius-card: 0px !important;
 	--drx-radius-element: 0px !important;
-	--drx-border-subtle: 1px solid #fff59b !important;
-	--drx-border-highlight: 1px solid #fff59b !important;
+	--drx-border-subtle: 1px solid #a53f40 !important;
+	--drx-border-highlight: 1px solid #a53f40 !important;
 	--drx-shadow-card: none !important;
 	--drx-shadow-card-hover: none !important;
 	--drx-shadow-dropdown: none !important;
 	--drx-shadow-modal: none !important;
-	--drx-color-base: #070722 !important;
-	--drx-color-surface: #0a0a33 !important;
-	--drx-color-overlay: #9bfece !important;
-	--drx-color-highlight: #fff59b !important;
-	--drx-color-text: #fff59b !important;
-	--drx-color-subtext: #fff59b !important;
-	--drx-color-deactivate: #fff59b !important;
-	--drx-color-comment: #fff59b !important;
-	--drx-color-accent: #fff59b !important;
-	--drx-color-focus: #fff59b !important;
+	--drx-color-base: #190e0e !important;
+	--drx-color-surface: #261515 !important;
+	--drx-color-overlay: #9b4441 !important;
+	--drx-color-highlight: #a53f40 !important;
+	--drx-color-text: #a53f40 !important;
+	--drx-color-subtext: #a53f40 !important;
+	--drx-color-deactivate: #a53f40 !important;
+	--drx-color-comment: #a53f40 !important;
+	--drx-color-accent: #a53f40 !important;
+	--drx-color-focus: #a53f40 !important;
 }
 
 :root[data-theme="noctalia-light"],
@@ -58,22 +58,22 @@
 	--drx-radius-pill: 0px !important;
 	--drx-radius-card: 0px !important;
 	--drx-radius-element: 0px !important;
-	--drx-border-subtle: 1px solid #5d65f5 !important;
-	--drx-border-highlight: 1px solid #5d65f5 !important;
+	--drx-border-subtle: 1px solid #943839 !important;
+	--drx-border-highlight: 1px solid #943839 !important;
 	--drx-shadow-card: none !important;
 	--drx-shadow-card-hover: none !important;
 	--drx-shadow-dropdown: none !important;
 	--drx-shadow-modal: none !important;
-	--drx-color-base: #e6e8fa !important;
-	--drx-color-surface: #f7f8fd !important;
-	--drx-color-overlay: #0e0e43 !important;
-	--drx-color-highlight: #5d65f5 !important;
-	--drx-color-text: #5d65f5 !important;
-	--drx-color-subtext: #5d65f5 !important;
-	--drx-color-deactivate: #5d65f5 !important;
-	--drx-color-comment: #5d65f5 !important;
-	--drx-color-accent: #5d65f5 !important;
-	--drx-color-focus: #5d65f5 !important;
+	--drx-color-base: #fff7f7 !important;
+	--drx-color-surface: #ffffff !important;
+	--drx-color-overlay: #833937 !important;
+	--drx-color-highlight: #943839 !important;
+	--drx-color-text: #943839 !important;
+	--drx-color-subtext: #943839 !important;
+	--drx-color-deactivate: #943839 !important;
+	--drx-color-comment: #943839 !important;
+	--drx-color-accent: #943839 !important;
+	--drx-color-focus: #943839 !important;
 }
 
 [data-theme^="noctalia"] .content-card,
@@ -92,12 +92,12 @@
 }
 
 [data-theme^="noctalia"] .content-card {
-	border: 1px solid #fff59b !important;
+	border: 1px solid #943839 !important;
 	box-shadow: none !important;
 }
 
 [data-theme^="noctalia"] .content-card:hover {
-	border-color: #fff59b !important;
+	border-color: #943839 !important;
 	box-shadow: none !important;
 }
 
@@ -119,37 +119,37 @@
 }
 
 [data-theme^="noctalia"] .homelab-preview-box {
-	border: 1px solid #fff59b !important;
+	border: 1px solid #943839 !important;
 	box-shadow: none !important;
 }
 
 [data-theme^="noctalia"] .homelab-preview-box:hover {
-	border-color: #fff59b !important;
+	border-color: #943839 !important;
 	box-shadow: none !important;
 }
 
 [data-theme^="noctalia"] .search-field {
 	border-radius: 0 !important;
-	border: 1px solid #fff59b !important;
-	background-color: #9bfece !important;
+	border: 1px solid #943839 !important;
+	background-color: #833937 !important;
 	box-shadow: none !important;
-	color: #fff59b !important;
+	color: #943839 !important;
 }
 
 [data-theme^="noctalia"] .search-field:hover,
 [data-theme^="noctalia"] .search-field:focus {
-	border-color: #fff59b !important;
-	background-color: #9bfece !important;
+	border-color: #943839 !important;
+	background-color: #833937 !important;
 	box-shadow: none !important;
 }
 
 [data-theme^="noctalia"] .search-field::placeholder {
-	color: #fff59b !important;
+	color: #943839 !important;
 	opacity: 0.65;
 }
 
 [data-theme^="noctalia"] .search-field-icon {
-	color: #fff59b !important;
+	color: #943839 !important;
 }
 
 [data-theme^="noctalia"] .greeting-title,
@@ -161,10 +161,10 @@
 [data-theme^="noctalia"] .homelab-service-link svg,
 [data-theme^="noctalia"] .settings-btn,
 [data-theme^="noctalia"] .help-btn {
-	color: #fff59b !important;
+	color: #943839 !important;
 }
 
 [data-theme^="noctalia"] .bookmark-list a:hover {
-	color: #fff59b !important;
+	color: #943839 !important;
 	text-decoration: underline;
 }
