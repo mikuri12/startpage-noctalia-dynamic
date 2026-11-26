@@ -7,25 +7,25 @@
 	--drx-radius-card: 0px !important;
 	--drx-radius-element: 0px !important;
 
-	--drx-border-subtle: 1px solid #76614e !important;
-	--drx-border-highlight: 1px solid #76614e !important;
+	--drx-border-subtle: 1px solid #a8732a !important;
+	--drx-border-highlight: 1px solid #a8732a !important;
 
 	--drx-shadow-card: none !important;
 	--drx-shadow-card-hover: none !important;
 	--drx-shadow-dropdown: none !important;
 	--drx-shadow-modal: none !important;
 
-	--drx-color-base: #f0e5de !important;
-	--drx-color-surface: #f6f0ec !important;
-	--drx-color-overlay: #6f5c4b !important;
-	--drx-color-highlight: #76614e !important;
+	--drx-color-base: #f1e8ec !important;
+	--drx-color-surface: #f9f5f6 !important;
+	--drx-color-overlay: #8d6e47 !important;
+	--drx-color-highlight: #a8732a !important;
 
-	--drx-color-text: #76614e !important;
-	--drx-color-subtext: #76614e !important;
-	--drx-color-deactivate: #76614e !important;
-	--drx-color-comment: #76614e !important;
-	--drx-color-accent: #76614e !important;
-	--drx-color-focus: #76614e !important;
+	--drx-color-text: #a8732a !important;
+	--drx-color-subtext: #a8732a !important;
+	--drx-color-deactivate: #a8732a !important;
+	--drx-color-comment: #a8732a !important;
+	--drx-color-accent: #a8732a !important;
+	--drx-color-focus: #a8732a !important;
 }
 
 :root[data-theme="noctalia-dark"],
@@ -34,22 +34,22 @@
 	--drx-radius-pill: 0px !important;
 	--drx-radius-card: 0px !important;
 	--drx-radius-element: 0px !important;
-	--drx-border-subtle: 1px solid #846c57 !important;
-	--drx-border-highlight: 1px solid #846c57 !important;
+	--drx-border-subtle: 1px solid #bb802f !important;
+	--drx-border-highlight: 1px solid #bb802f !important;
 	--drx-shadow-card: none !important;
 	--drx-shadow-card-hover: none !important;
 	--drx-shadow-dropdown: none !important;
 	--drx-shadow-modal: none !important;
-	--drx-color-base: #2c211a !important;
-	--drx-color-surface: #392b22 !important;
-	--drx-color-overlay: #836d59 !important;
-	--drx-color-highlight: #846c57 !important;
-	--drx-color-text: #846c57 !important;
-	--drx-color-subtext: #846c57 !important;
-	--drx-color-deactivate: #846c57 !important;
-	--drx-color-comment: #846c57 !important;
-	--drx-color-accent: #846c57 !important;
-	--drx-color-focus: #846c57 !important;
+	--drx-color-base: #22191d !important;
+	--drx-color-surface: #2e2227 !important;
+	--drx-color-overlay: #a78254 !important;
+	--drx-color-highlight: #bb802f !important;
+	--drx-color-text: #bb802f !important;
+	--drx-color-subtext: #bb802f !important;
+	--drx-color-deactivate: #bb802f !important;
+	--drx-color-comment: #bb802f !important;
+	--drx-color-accent: #bb802f !important;
+	--drx-color-focus: #bb802f !important;
 }
 
 :root[data-theme="noctalia-light"],
@@ -58,22 +58,22 @@
 	--drx-radius-pill: 0px !important;
 	--drx-radius-card: 0px !important;
 	--drx-radius-element: 0px !important;
-	--drx-border-subtle: 1px solid #76614e !important;
-	--drx-border-highlight: 1px solid #76614e !important;
+	--drx-border-subtle: 1px solid #a8732a !important;
+	--drx-border-highlight: 1px solid #a8732a !important;
 	--drx-shadow-card: none !important;
 	--drx-shadow-card-hover: none !important;
 	--drx-shadow-dropdown: none !important;
 	--drx-shadow-modal: none !important;
-	--drx-color-base: #f0e5de !important;
-	--drx-color-surface: #f6f0ec !important;
-	--drx-color-overlay: #6f5c4b !important;
-	--drx-color-highlight: #76614e !important;
-	--drx-color-text: #76614e !important;
-	--drx-color-subtext: #76614e !important;
-	--drx-color-deactivate: #76614e !important;
-	--drx-color-comment: #76614e !important;
-	--drx-color-accent: #76614e !important;
-	--drx-color-focus: #76614e !important;
+	--drx-color-base: #f1e8ec !important;
+	--drx-color-surface: #f9f5f6 !important;
+	--drx-color-overlay: #8d6e47 !important;
+	--drx-color-highlight: #a8732a !important;
+	--drx-color-text: #a8732a !important;
+	--drx-color-subtext: #a8732a !important;
+	--drx-color-deactivate: #a8732a !important;
+	--drx-color-comment: #a8732a !important;
+	--drx-color-accent: #a8732a !important;
+	--drx-color-focus: #a8732a !important;
 }
 
 [data-theme^="noctalia"] .content-card,
@@ -92,12 +92,12 @@
 }
 
 [data-theme^="noctalia"] .content-card {
-	border: 1px solid #76614e !important;
+	border: 1px solid #a8732a !important;
 	box-shadow: none !important;
 }
 
 [data-theme^="noctalia"] .content-card:hover {
-	border-color: #76614e !important;
+	border-color: #a8732a !important;
 	box-shadow: none !important;
 }
 
@@ -119,37 +119,37 @@
 }
 
 [data-theme^="noctalia"] .homelab-preview-box {
-	border: 1px solid #76614e !important;
+	border: 1px solid #a8732a !important;
 	box-shadow: none !important;
 }
 
 [data-theme^="noctalia"] .homelab-preview-box:hover {
-	border-color: #76614e !important;
+	border-color: #a8732a !important;
 	box-shadow: none !important;
 }
 
 [data-theme^="noctalia"] .search-field {
 	border-radius: 0 !important;
-	border: 1px solid #76614e !important;
-	background-color: #6f5c4b !important;
+	border: 1px solid #a8732a !important;
+	background-color: #8d6e47 !important;
 	box-shadow: none !important;
-	color: #76614e !important;
+	color: #a8732a !important;
 }
 
 [data-theme^="noctalia"] .search-field:hover,
 [data-theme^="noctalia"] .search-field:focus {
-	border-color: #76614e !important;
-	background-color: #6f5c4b !important;
+	border-color: #a8732a !important;
+	background-color: #8d6e47 !important;
 	box-shadow: none !important;
 }
 
 [data-theme^="noctalia"] .search-field::placeholder {
-	color: #76614e !important;
+	color: #a8732a !important;
 	opacity: 0.65;
 }
 
 [data-theme^="noctalia"] .search-field-icon {
-	color: #76614e !important;
+	color: #a8732a !important;
 }
 
 [data-theme^="noctalia"] .greeting-title,
@@ -161,10 +161,10 @@
 [data-theme^="noctalia"] .homelab-service-link svg,
 [data-theme^="noctalia"] .settings-btn,
 [data-theme^="noctalia"] .help-btn {
-	color: #76614e !important;
+	color: #a8732a !important;
 }
 
 [data-theme^="noctalia"] .bookmark-list a:hover {
-	color: #76614e !important;
+	color: #a8732a !important;
 	text-decoration: underline;
 }
